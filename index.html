@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMEI - Instituto Multidisciplinario de Educación Integral</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <img src="logo.png" alt="Logo IMEI" class="h-14">
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="#inicio" class="hover:underline">Inicio</a>
+        <a href="#instituto" class="hover:underline">Sobre el Instituto</a>
+        <a href="#cursos" class="hover:underline">Cursos</a>
+        <a href="#galeria" class="hover:underline">Galería</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="bg-blue-50 py-16 text-center">
+    <h1 class="text-3xl md:text-5xl font-bold text-blue-800">Instituto Multidisciplinario de Educación Integral</h1>
+    <p class="mt-4 text-xl text-blue-600 italic">"Formando personas, construyendo futuros."</p>
+  </section>
+
+  <!-- Sobre el Instituto -->
+  <section id="instituto" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-700 mb-4">Sobre el Instituto</h2>
+    <p>En el IMEI nos dedicamos a brindar una educación integral de calidad, enfocada en el desarrollo académico, personal y social de nuestros estudiantes. Nuestro equipo docente está comprometido con el crecimiento de cada alumno.</p>
+  </section>
+
+  <!-- Cursos -->
+  <section id="cursos" class="py-12 px-4 bg-gray-100 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-700 mb-6">Nuestros Cursos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="text-lg font-semibold text-blue-600">Curso de Apoyo Escolar</h3>
+        <p>Refuerzo en materias clave como Matemáticas, Lengua y Ciencias para todos los niveles.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="text-lg font-semibold text-blue-600">Preparación para Exámenes</h3>
+        <p>Clases personalizadas para preparar exámenes de ingreso o finales.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="text-lg font-semibold text-blue-600">Orientación Vocacional</h3>
+        <p>Ayudamos a los jóvenes a definir su camino profesional con herramientas efectivas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="py-12 px-4 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-700 mb-6">Galería</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="bg-gray-200 aspect-square"></div>
+      <div class="bg-gray-200 aspect-square"></div>
+      <div class="bg-gray-200 aspect-square"></div>
+      <div class="bg-gray-200 aspect-square"></div>
+      <div class="bg-gray-200 aspect-square"></div>
+      <div class="bg-gray-200 aspect-square"></div>
+    </div>
+    <p class="mt-4 text-sm text-gray-500">(Puedes reemplazar estas cajas grises por fotos reales del instituto)</p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-12 px-4 bg-blue-50">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-2xl font-bold text-blue-700 mb-4">Contacto</h2>
+      <form action="https://formspree.io/f/tuformid" method="POST" class="space-y-4">
+        <input type="text" name="nombre" placeholder="Tu nombre" class="w-full border p-2 rounded" required />
+        <input type="email" name="email" placeholder="Tu correo electrónico" class="w-full border p-2 rounded" required />
+        <textarea name="mensaje" placeholder="Tu mensaje" class="w-full border p-2 rounded" rows="5" required></textarea>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4">
+    <p>&copy; 2025 IMEI - Instituto Multidisciplinario de Educación Integral. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
